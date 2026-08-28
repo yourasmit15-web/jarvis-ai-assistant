@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Frontend dependencies and build artifacts
+frontend/node_modules/
+frontend/build/
+
+# Local backend runtime data
+backend/jarvis.db

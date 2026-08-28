@@ -1,0 +1,29 @@
+:root { color-scheme: dark; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: radial-gradient(circle at top, #10131f, #05060b 60%);
+  color: #e8eeff;
+}
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(130, 170, 255, 0.35);
+  border-radius: 14px;
+  padding: 0.8rem;
+}
+.chat-log { max-height: 240px; overflow: auto; margin-bottom: 0.5rem; }
+.msg.user { color: #9be7ff; }
+.msg.assistant { color: #cbf1c8; }
+button { cursor: pointer; }
+button.danger { background: #d54343; color: #fff; border: none; padding: 0.5rem 0.8rem; }
+.error { color: #ff7f96; }
