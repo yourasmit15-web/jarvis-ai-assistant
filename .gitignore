@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / frontend artifacts
+node_modules/
+frontend/node_modules/
+frontend/build/
+npm-debug.log*
+
+# Local assistant database
+raghuvir.db

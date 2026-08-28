@@ -1,0 +1,9 @@
+body { margin: 0; font-family: Inter, Arial, sans-serif; background: #090d1f; color: #e7eaff; }
+.app-shell { padding: 20px; }
+h1 { color: #86b7ff; }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card { background: #121a33; border: 1px solid #243264; border-radius: 10px; padding: 12px; }
+button { margin-top: 8px; }
+.danger { background: #9f1f1f; color: #fff; }
+.messages { min-height: 120px; max-height: 200px; overflow: auto; }
+.msg { padding: 4px 0; }
